@@ -1,0 +1,26 @@
+.content {
+  min-height: 100vh;
+  color: #BFC9C1;
+  background-color: #151B29;
+
+  .container {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+
+    .title {
+      color: #BFC9DA;
+      margin-bottom: 30px;
+
+      .header {
+        font-size: 1.5rem;
+      }
+
+      .description {
+        font-size: 1rem;
+      }
+
+    }
+  }
+}

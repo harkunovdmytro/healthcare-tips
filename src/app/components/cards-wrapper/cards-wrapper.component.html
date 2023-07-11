@@ -1,0 +1,7 @@
+<div class="cards-wrapper">
+  <app-card
+    *ngFor="let card of cards; let index = index"
+    [card]="card"
+    [descriptionVisible]="!(index % 3)"
+  ></app-card>
+</div>
